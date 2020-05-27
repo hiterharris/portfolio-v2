@@ -1,5 +1,7 @@
 /* Intro */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
 	#intro {
 		background-attachment: fixed;
 		background-image: url('images/hero.jpg');
@@ -7,8 +9,16 @@
 		background-repeat: no-repeat;
 		background-size: 90% 105%;
 
+		h1 {
+			font-size: 3em;
+			font-family: 'Lato';
+			font-weight: 100;
+		}
+
 		p {
 			font-size: 1.25em;
+			font-family: 'Lato';
+			font-weight: 100;
 
 			@include breakpoint('<=medium') {
 				br {

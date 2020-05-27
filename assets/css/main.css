@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import 'fontawesome-all.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -88,7 +90,7 @@ html {
 }
 
 body {
-  background: #312450;
+  background: white;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -3036,15 +3038,12 @@ body.is-ie #sidebar > .inner {
   transition-delay: 4.25s;
 }
 #sidebar nav a {
-  -moz-transition: color 0.2s ease;
-  -webkit-transition: color 0.2s ease;
-  -ms-transition: color 0.2s ease;
-  transition: color 0.2s ease;
+  font-family: "Lato";
   border: 0;
   color: rgba(255, 255, 255, 0.35);
   display: block;
-  font-size: 0.6em;
-  font-weight: bold;
+  font-size: 0.8em;
+  font-weight: light;
   letter-spacing: 0.25em;
   line-height: 1.75;
   outline: 0;
@@ -3063,17 +3062,10 @@ body.is-ie #sidebar > .inner {
   width: 100%;
 }
 #sidebar nav a:before {
-  background: #3c2c62;
+  background-color: lightgray;
 }
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
-  -moz-transition: max-width 0.2s ease;
-  -webkit-transition: max-width 0.2s ease;
-  -ms-transition: max-width 0.2s ease;
-  transition: max-width 0.2s ease;
+  background-color: lightgray;
   max-width: 0;
 }
 #sidebar nav a:hover {
@@ -3162,8 +3154,15 @@ body.is-preload #sidebar nav ul li {
   background-repeat: no-repeat;
   background-size: 90% 105%;
 }
+#intro h1 {
+  font-size: 3em;
+  font-family: "Lato";
+  font-weight: 100;
+}
 #intro p {
   font-size: 1.25em;
+  font-family: "Lato";
+  font-weight: 100;
 }
 @media screen and (max-width: 980px) {
   #intro p br {
