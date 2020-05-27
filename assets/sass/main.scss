@@ -52,3 +52,67 @@
 	@import 'layout/footer';
 	@import 'layout/sidebar';
 	@import 'layout/intro';
+
+
+	.about {
+		display: flex;
+	}
+
+	.info {
+		display: flex;
+		justify-content: space-around;
+		@media(max-width: 800px) {
+		  width: 90%;
+		  text-align: center;
+		}
+		p {
+		  font-size:20px;
+		  font-weight: 300;
+		  margin:5%;
+		}
+	  }
+
+	.skills-interests {
+		display:flex;
+		justify-content: space-around;
+
+		.lists {
+			display: flex;
+		}
+	  }
+	  .skills, .interests {
+		h2 {
+		  font-weight:300;
+		  text-decoration: underline;
+		}
+	  }
+	  .links {
+		text-align: center;
+		@media(max-width: 800px) {
+		  margin: 10%;
+		}
+		h2 {
+		  font-weight: 300;
+		  text-align: center;
+		  text-decoration: underline;
+		  margin-top:10%;
+		}
+		a {
+		  margin:7%;
+		  color: blue;
+	  
+		}
+	  }
+
+.contact {
+	.inner {
+		margin: auto;
+		padding-left: 10%;
+	}
+}
+
+.hero {
+	@media(max-width: 800px) {
+		background-size: contain;
+	}
+}

@@ -46,7 +46,10 @@
 		}
 
 		&.style3 {
-			background-color: _palette(accent3);
+			background-color: white;
+			p, h2, h3 {
+				color: black;
+			}
 		}
 
 		&.style3-alt {
@@ -134,4 +137,6 @@
 				}
 			}
 		}
+
+
 	}

@@ -2651,7 +2651,10 @@ table.alt tfoot {
   background-color: #3e4094;
 }
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: white;
+}
+.wrapper.style3 p, .wrapper.style3 h2, .wrapper.style3 h3 {
+  color: black;
 }
 .wrapper.style3-alt {
   background-color: #953d75;
@@ -3184,6 +3187,69 @@ body.is-preload #sidebar nav ul li {
 @media screen and (max-width: 1280px) {
   #intro {
     background-attachment: scroll;
+  }
+}
+
+.about {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 800px) {
+  .info {
+    width: 90%;
+    text-align: center;
+  }
+}
+.info p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5%;
+}
+
+.skills-interests {
+  display: flex;
+  justify-content: space-around;
+}
+.skills-interests .lists {
+  display: flex;
+}
+
+.skills h2, .interests h2 {
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.links {
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .links {
+    margin: 10%;
+  }
+}
+.links h2 {
+  font-weight: 300;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10%;
+}
+.links a {
+  margin: 7%;
+  color: blue;
+}
+
+.contact .inner {
+  margin: auto;
+  padding-left: 10%;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    background-size: contain;
   }
 }
 
