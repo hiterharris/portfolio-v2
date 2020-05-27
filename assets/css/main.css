@@ -2444,7 +2444,8 @@ body.is-ie .spotlights > section {
 }
 .spotlights > section > .image {
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 0;
   display: block;
   position: relative;
@@ -2468,6 +2469,9 @@ body.is-ie .spotlights > section {
   position: absolute;
   top: 0;
   width: 100%;
+}
+.spotlights > section .image2 {
+  margin-top: 5%;
 }
 .spotlights > section > .content {
   padding: 4em 5em 2em 5em;
@@ -2496,6 +2500,9 @@ body.is-ie .spotlights > section {
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
   transition: opacity 1s ease, transform 1s ease;
   opacity: 1;
+}
+.spotlights > section:nth-child(1) {
+  background-color: #3C5999;
 }
 .spotlights > section:nth-child(2) {
   background-color: rgba(0, 0, 0, 0.05);
