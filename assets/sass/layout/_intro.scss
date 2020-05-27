@@ -1,0 +1,27 @@
+/* Intro */
+
+	#intro {
+		background-attachment: fixed;
+		background-image: url('images/hero.jpg');
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 90% 105%;
+
+		p {
+			font-size: 1.25em;
+
+			@include breakpoint('<=medium') {
+				br {
+					display: none;
+				}
+			}
+
+			@include breakpoint('<=small') {
+				font-size: 1em;
+			}
+		}
+
+		@include breakpoint('<=large') {
+			background-attachment: scroll;
+		}
+	}
